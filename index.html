@@ -5,48 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Orafolio - Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div>
+<div class="main-container">
 
     <header>
-        <nav>
-            <ul>
+        <nav class="nav-container">
+            <ul class="nav-left">
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">ABOUT</a></li>
             </ul>
+            <div class="star">★</div>
             <ul class="nav-right">
                 <li><a href="#">WORKS</a></li>
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
     </header>
-    <div>
-        <h1>Visual Designer Based in Indonesia</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.</p>
-        <button>
+
+    <div class="black-box">
+        <div class="intro-text">
+            <h1>Visual Designer Based in Indonesia</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <button class="contact-btn">
             Contact Me
+            <div class="arrow-circle">
+                &#x2192;
+            </div>
         </button>
-        <section>
-            <img src="https://framerusercontent.com/images/RRa1bCC6dI2vIaYfsy2uiAe2g.png?scale-down-to=1024"
-                 alt="Branding Project">
-            <p>Branding Project</p>
-            <img src="https://framerusercontent.com/images/78AvoikXC1uld2FRse5MqtKkQ.png?scale-down-to=1024"
-                 alt="Branding Project">
-            <p>Branding Project</p>
+
+        <section class="projects-frame">
+            <div class="project-box">
+                <img src="https://framerusercontent.com/images/RRa1bCC6dI2vIaYfsy2uiAe2g.png?scale-down-to=1024" alt="Branding Project">
+                <p>Branding Project</p>
+            </div>
+            <div class="project-box">
+                <img src="https://framerusercontent.com/images/78AvoikXC1uld2FRse5MqtKkQ.png?scale-down-to=1024" alt="Branding Project">
+                <p>Branding Project</p>
+            </div>
         </section>
     </div>
 
-    <section>
-        <img src="https://img.freepik.com/free-photo/beautiful-bored-man-isolated-blue-wall_155003-4729.jpg?t=st=1727728571~exp=1727732171~hmac=c23cb0e83abea015fe3b7e2aaaac3118b1eb1f9f0521af53bcdcffb5d8cd0dd2&w=740"
-             alt="About Me">
-        <h2>About Me</h2>
-        <p>
-            I am a creative designer with a passion for branding and visual storytelling.
-            I help brands communicate their values through compelling visuals and design elements.
-        </p>
+    <section class="about-section">
+        <div class="about-img">
+            <img src="https://img.freepik.com/free-photo/beautiful-bored-man-isolated-blue-wall_155003-4729.jpg?t=st=1727728571~exp=1727732171~hmac=c23cb0e83abea015fe3b7e2aaaac3118b1eb1f9f0521af53bcdcffb5d8cd0dd2&w=740" alt="About Me">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am a creative designer with a passion for branding and visual storytelling.
+                I help brands communicate their values through compelling visuals and design elements.
+            </p>
+        </div>
     </section>
 
 </div>
